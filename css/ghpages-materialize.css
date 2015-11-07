@@ -7033,7 +7033,7 @@ select {
     float: none;
     padding: 0 15px; }
     .side-nav li:hover, .side-nav li.active {
-      background-color: #ddd; }
+      background-color: #885F5F; }
   .side-nav a {
     color: #444;
     display: block;
@@ -8212,7 +8212,7 @@ h1, h2, h3, h4, h5, h6 {
 nav a {
   -webkit-font-smoothing: antialiased; }
 nav ul li:hover, nav ul li.active {
-  background-color: #ea454b; }
+  background-color: #885F5F; }
 
 .header {
   color: #ee6e73;

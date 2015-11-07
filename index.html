@@ -10,23 +10,27 @@
     <meta name="msapplication-TileColor" content="#FFFFFF">
     <link rel="icon" href="img/icon2.jpg" sizes="32x32">
     <!-- CSS-->
+            <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
     <link href="css/prism.css" rel="stylesheet">
-     <link href="css/estilos.css" rel="stylesheet"> 
+     <link href="css/estilos.css" rel="stylesheet" type="text/css"> 
     <link href="css/ghpages-materialize.css" type="text/css" rel="stylesheet" media="screen,projection">
     <link href="css/css" rel="stylesheet" type="text/css">
+       <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   </head>
      
   <body class="parallax-demo">
+       <p class="fix"><a href="#top"><span><img src="img/top.png" id="totop"></span></a></p>
        <header>
-  <nav class="barra">
+  <nav style="background-color:rosybrown" id="top">
     <div class="container">
       <div class="nav-wrapper">
         <a href="http://materializecss.com/index.html" class="brand-logo"><img width="45" height="45" src="img/logo.png">CardBoardable</a>
            <ul class="right hide-on-med-and-down">
-        <li><a href="#about">About</a></li>
+        <li><a href="#about">About us</a></li>
            <li><a href="#team">Team</a></li>
-           <li><a href="#content">Content</a></li>
+           <li ><a href="#content">Content</a></li>
            <li><a href="#tutorial">Tutorials</a></li>
+          <li><a href="#contacts" ><i class=" material-icons">call</i></a></li>
       </ul>
         <ul class="right side-nav" id="nav-mobile" style="left: -250px;">
           <li class="hide-on-small-only"><a href="http://materializecss.com/parallax.html"><i class="mdi-navigation-arrow-back"></i></a></li>
@@ -42,62 +46,155 @@
   <div class="parallax-container">
     <div class="parallax"><img src="img/2.jpg" style="display: block; transform: translate3d(-50%, 312px, 0px);"></div>
   </div>
+     
   <div class="section white">
     <div class="row center container">
-      <h2 class="header" id="about">About us</h2>
+      <h2 class="header brown-text" id="about">About us</h2>
       <p class="gray-text text-darken-3 lighten-4"><br><br>Aliquam porttitor turpis est, vitae pulvinar quam volutpat eu. Sed placerat mi metus. Fusce porttitor augue ullamcorper lorem pellentesque, vel vehicula ante scelerisque. Pellentesque efficitur consectetur leo, ac dictum ex. Quisque mattis velit leo. Integer pharetra tincidunt felis id ornare. Aliquam cursus dui turpis, non varius felis venenatis a. Suspendisse potenti. Aenean eget mollis erat. Pellentesque facilisis libero ut risus facilisis ultrices. Ut ornare finibus venenatis. Aenean euismod ipsum a venenatis varius. Ut ut faucibus leo. Ut ligula libero, vulputate ut bibendum pretium, tempus sed purus. In vitae semper nunc. Etiam tempor mi at mi volutpat, vel fermentum velit tempus.</p>
     </div>
     
   </div>
+     
   <div class="parallax-container">
     <div class="parallax"><img src="img/3.jpg" style="display: block;"></div>
-  </div>    
+  </div> 
+     
+     
      
      <div class="section white" id="team">
-        <div class="container">
+          <h2 class="header brown-text center" id="about">Team</h2>
+          <br>
+        <div class="container center">
              <div class="row">
-                  <div class="col l4">
-                       <img src="img/4.jpg" alt="" class="circle responsive-img">
-                       <h5 class="gray-text text-darken-3 lighten-4 center">Nelson Oliveira</h5>
-            <p class="gray-text text-darken-3 lighten-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam molestie ante eget arcu convallis maximus in vitae nunc. Nunc id est eu ipsum sodales pretium ac at purus.</p>
+                  <div class="col l3">
+                       
+                       <div class="valign-wrapper">
+                    <img src="img/4.jpg" alt="" class="circle avatar responsive-img">
+                    <h2>  </h2>
+                      <a href="http://openlab.esev.ipv.pt/network/users/1" target="_blank"><i class="small material-icons valign green-text">queue</i></a></div>
+                       <h5 class="gray-text text-darken-3 lighten-4 left">Nelson Oliveira</h5>
+                  </div>
+
+                  <div class="col l3">
+                       <div class="valign-wrapper">
+                    <img src="img/5.jpg" alt="" class="circle avatar responsive-img">
+                    <h2>  </h2>
+                      <i class="small material-icons valign green-text">queue</i></div>
+                       <h5 class="gray-text text-darken-3 lighten-4 left">Mattheus Correia</h5>
                   </div>
                   
-                  <div class="col l4">
-                       <img src="img/5.jpg" alt="" class="circle responsive-img">
-                       <h5 class="gray-text text-darken-3 lighten-4 center">Matheus Correia</h5>
-            <p class="gray-text text-darken-3 lighten-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam molestie ante eget arcu convallis maximus in vitae nunc. Nunc id est eu ipsum sodales pretium ac at purus.</p>
+                  <div class="col l3">
+                       <div class="valign-wrapper">
+                    <img src="img/6.jpg" alt="" class="circle avatar responsive-img">
+                    <h2>  </h2>
+                      <a href="http://openlab.esev.ipv.pt/network/users/18" target="_blank"><i class="small material-icons valign green-text">queue</i></a></div>
+                       <h5 class="gray-text text-darken-3 lighten-4 left">David Soares</h5>
                   </div>
-                  <div class="col l4">
-                    <img src="img/6.jpg" alt="" class="circle responsive-img">
-                       <h5 class="gray-text text-darken-3 lighten-4 center">David Soares</h5>
-            <p class="gray-text text-darken-3 lighten-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam molestie ante eget arcu convallis maximus in vitae nunc. Nunc id est eu ipsum sodales pretium ac at purus.</p>
+                  
+                  <div class="col l3">
+                       <div class="valign-wrapper">
+                    <img src="http://www.gravatar.com/avatar/e963605db897b1a5d7089e5b5891005c?size=200" alt="" class="circle avatar responsive-img">
+                    <h2>  </h2>
+                      <a href="http://openlab.esev.ipv.pt/network/users/13" target="_blank"><i class="small material-icons valign green-text">queue</i></a></div>
+                       <h5 class="gray-text text-darken-3 lighten-4 left">Joana Soares</h5>
                   </div>
-             </div>         
+            </div>
+             <div class="row">
+                   <div class="col l3">
+                       <div class="valign-wrapper">
+                    <img src="img/avatar.png" alt="" class="circle avatar responsive-img">
+                    <h2>  </h2>
+                      <a href="http://openlab.esev.ipv.pt/network/users/10" target="_blank"><i class="small material-icons valign green-text">queue</i></a></div>
+                       <h5 class="gray-text text-darken-3 lighten-4 left">Adriano Santos</h5>
+                  </div>
+                  
+                  <div class="col l3">
+                       <div class="valign-wrapper">
+                    <img src="img/avatar.png" alt="" class="circle avatar responsive-img">
+                    <h2>  </h2>
+                      <a href="http://openlab.esev.ipv.pt/network/users/14" target="_blank"><i class="small material-icons valign green-text">queue</i></a></div>
+                       <h5 class="gray-text text-darken-3 lighten-4 left">Maria Pereira</h5>
+                  </div>
+                  
+                  <div class="col l3">
+                       <div class="valign-wrapper">
+                    <img src="img/avatar.png" alt="" class="circle avatar responsive-img">
+                    <h2>  </h2>
+                      <a href="http://openlab.esev.ipv.pt/network/users/16" target="_blank"><i class="small material-icons valign green-text">queue</i></a></div>
+                       <h5 class="gray-text text-darken-3 lighten-4 left">Ivan Terra</h5>
+                  </div>
+                  
+             </div>
+              </div>
           </div>
-     </div> 
      
      <div class="parallax-container">
     <div class="parallax"><img src="img/7.jpg" style="display: block;"></div>
   </div> 
      
      <div class="container" id="content">
+          <h2 class="header brown-text center" id="about">Content</h2>
+          <br>
           <div class="row">
-               <div class="col l6"><h5 class="center">Video</h5>
-               <ul class="center"><li><a href="" class="">Links</a></li>
-               <li><a href="" class="">Links</a></li>
-               <li><a href="" class="">Links</a></li>
-               <li><a href="" class="">Links</a></li>
-               </ul>
-               
+               <!--Images-->
+               <div class="col l4">
+               <div class="card">
+            <div class="card-image">
+              <img src="img/pic.jpg">
+              <span class="card-title">Images</span>
+            </div>
+            <div class="card-content">
+              <p>I am a very simple card. I am good at containing small bits of information.
+              I am convenient because I require little markup to use effectively.</p>
+            </div>
+            <div class="card-action center">
+              <a href="#">link</a>
+                 <a href="#">link</a>
+                 <a href="#">link</a>
+                 <a href="#">link</a>
+                 <a href="#">link</a>
+            </div>
+          </div>
                </div>
-               <div class="col l6"><h5 class="center">Images</h5>
-               <ul class="center"><li><a href="" class="">Links</a></li>
-               <li><a href="" class="">Links</a></li>
-               <li><a href="" class="">Links</a></li>
-               <li><a href="" class="">Links</a></li>
-               </ul>
-               
+               <!--Videos-->
+               <div class="col l4">
+                    
+               <div class="card">
+           <div class="card-image"><img src="img/vid.jpg"> <span class="card-title">Videos</span></div>
+               <div class="card-content">
+              <p>I am a very simple card. I am good at containing small bits of information.
+              I am convenient because I require little markup to use effectively.</p>
+            </div>
+            <div class="card-action center">
+              <a href="#">link</a>
+                 <a href="#">link</a>
+                 <a href="#">link</a>
+                 <a href="#">link</a>
+                 <a href="#">link</a>
+            </div>
                </div>
+           </div>
+               <!--360-->
+               <div class="col l4">
+                    <div class="card">
+            <div class="card-image">
+              <img src="img/se.png">
+              <span class="card-title">Viseu 360ª</span>
+            </div>
+            <div class="card-content">
+              <p>I am a very simple card. I am good at containing small bits of information.
+              I am convenient because I require little markup to use effectively.</p>
+            </div>
+            <div class="card-action center">
+              <a href="#">link</a>
+                 <a href="#">link</a>
+                 <a href="#">link</a>
+                 <a href="#">link</a>
+                 <a href="#">link</a>
+            </div>
+          </div>
+                    
+                    </div>
                
           </div>
      </div>
@@ -107,40 +204,76 @@
   </div> 
      
      <div class="container" id="tutorial">
+          <h2 class="header brown-text center" id="about">Tutorials</h2>
+          <br>
           <div class="row">
-               <div class="col12"><h4 class="center">Tutorials</h4></div>
-               <div class="col l4"><h5 class="center">How to make your<br>own Cardboard</h5>
-               <ul class="center"><li><a href="" class="">Links</a></li>
-               <li><a href="" class="">Links</a></li>
-               <li><a href="" class="">Links</a></li>
-               <li><a href="" class="">Links</a></li>
-               </ul>
-               
+               <!--Images-->
+               <div class="col l4">
+               <div class="card">
+            <div class="card-image">
+              <img src="img/cardboard.png">
+              <span class="card-title  ">Make your Cardboard</span>
+            </div>
+            <div class="card-content">
+              <p>I am a very simple card. I am good at containing small bits of information.
+              I am convenient because I require little markup to use effectively.</p>
+            </div>
+            <div class="card-action center">
+              <a href="#">link</a>
+                 <a href="#">link</a>
+                 <a href="#">link</a>
+                 <a href="#">link</a>
+                 <a href="#">link</a>
+            </div>
+          </div>
                </div>
-               <div class="col l4"><h5 class="center">How to create <br> 3D Spaces</h5>
-               <ul class="center"><li><a href="" class="">Links</a></li>
-               <li><a href="" class="">Links</a></li>
-               <li><a href="" class="">Links</a></li>
-               <li><a href="" class="">Links</a></li>
-               </ul>
-               
+               <!--Videos-->
+               <div class="col l4">
+                    
+               <div class="card">
+           <div class="card-image"><img src="img/3d.png"> <span class="card-title">3D Spaces</span></div>
+               <div class="card-content">
+              <p>I am a very simple card. I am good at containing small bits of information.
+              I am convenient because I require little markup to use effectively.</p>
+            </div>
+            <div class="card-action center">
+              <a href="#">link</a>
+                 <a href="#">link</a>
+                 <a href="#">link</a>
+                 <a href="#">link</a>
+                 <a href="#">link</a>
+            </div>
                </div>
-               <div class="col l4"><h5 class="center">How to create <br>Photos Spheres </h5>
-               <ul class="center"><li><a href="" class="">Links</a></li>
-               <li><a href="" class="">Links</a></li>
-               <li><a href="" class="">Links</a></li>
-               <li><a href="" class="">Links</a></li>
-               </ul>
-               
-               </div>
+           </div>
+               <!--360-->
+               <div class="col l4">
+                    <div class="card">
+            <div class="card-image">
+              <img src="img/ps.png">
+              <span class="card-title">PhotoSpheres</span>
+            </div>
+            <div class="card-content">
+              <p>I am a very simple card. I am good at containing small bits of information.
+              I am convenient because I require little markup to use effectively.</p>
+            </div>
+            <div class="card-action center">
+              <a href="#">link</a>
+                 <a href="#">link</a>
+                 <a href="#">link</a>
+                 <a href="#">link</a>
+                 <a href="#">link</a>
+            </div>
+          </div>
+                    
+                    </div>
                
           </div>
      </div>
      
      
      
-     <footer class="page-footer" id="contacts" >
-      <div class="container">
+     <footer class="page-footer" id="contacts" style="background-color:rosybrown">
+      <div class="container ">
         <div class="row">
           <div class="col l12 s12">
              <h5 class="white-text center">Contacts</h5>
@@ -154,7 +287,7 @@
       </div>
 
       <div class="footer-copyright">
-        <div class="container center"> 2015 CardBoardable, All rights reserved.  </div>
+        <div class="container center">CardBoardable is a service of <a href="http://openlab.esev.ipv.pt/" target="_blank" class="white-text">OpenLab ESEV</a> </div>
       </div>
     </footer>
      
@@ -165,18 +298,18 @@
      
      
     <!--  Scripts-->
+     
     <script src="js/jquery-2.1.1.min.js"></script>
-    
-    
     <script src="js/prism.js"></script>
     <script src="js/lunr.min.js"></script>
+     <script src="js/api.js"></script>
      <script>
      $(document).ready(function(){
       $('.parallax').parallax();
     });
      </script>
     <script src="js/materialize.js"></script>
-    
+   
      <!--Scroll-->
      <script>
 $(function() {
